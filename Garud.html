@@ -7,43 +7,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
     <style>
         body {
-            background-color: #f4f4f4; 
+            background-color: #f4f4f4;
             margin: 0;
             display: flex;
+            /* FIX: Stacks the h1 and a tag vertically */
+            flex-direction: column; 
             justify-content: center;
             align-items: center;
             height: 50vh;
         }
 
         h1 {
-
             font-family: 'Cinzel', serif;
-            font-size: 3em; 
+            font-size: 3em;
             color: #333;
-            
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
             letter-spacing: 5px;
+            /* Added margin to separate title and button */
+            margin-bottom: 30px; 
         }
-      <style>
+
+        /* FIX: Combined all CSS styles here */
         .dive-in-button {
-            background-color: #333333; 
-            color: #f0f0f0; 
-            border: 2px solid #555555; 
-            border-radius: 5px; 
-            cursor: pointer; 
+            background-color: #333333;
+            color: #f0f0f0;
+            border: 2px solid #555555;
+            border-radius: 5px;
+            cursor: pointer;
             text-align: center;
-            text-decoration: none; 
+            text-decoration: none;
             display: inline-block;
-            padding: 8px 15px; 
-            font-size: 14px; 
+            padding: 8px 15px;
+            font-size: 14px;
             font-weight: bold;
-            text-transform: uppercase; 
+            text-transform: uppercase;
             letter-spacing: 1px;
             transition: background-color 0.3s ease;
         }
 
         .dive-in-button:hover {
-            background-color: #555555; 
+            background-color: #555555;
             color: white;
             border-color: #f0f0f0;
         }
@@ -52,11 +55,8 @@
 <body>
 
     <h1>TEAM GARUD</h1>
-   <a href="index.html" class="dive-in-button">DIVE IN</a
+    
+    <a href="index.html" class="dive-in-button">DIVE IN</a>
     
 </body>
-  
-
-
 </html>
-
