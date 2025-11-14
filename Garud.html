@@ -13,9 +13,10 @@
             flex-direction: column; 
             justify-content: center;
             align-items: center;
-            /* Use 100vh to ensure the content is centered vertically in the screen */
+            
             min-height: 100vh;
             position: relative; 
+            padding: 20px;
         }
 
         h1 {
@@ -24,9 +25,22 @@
             color: #f0f0f0; 
             text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2);
             letter-spacing: 5px;
-            margin-bottom: 30px; 
+            margin-bottom: 20px; 
             z-index: 1; 
             text-transform: uppercase;
+            text-align: center;
+        }
+        
+        
+        .description-paragraph {
+            color: #cccccc; 
+            font-family: 'Cinzel', serif; 
+            font-size: 1.1em;
+            text-align: center;
+            max-width: 600px; 
+            padding: 0 20px;
+            line-height: 1.5;
+            z-index: 1; 
         }
 
         .dive-in-button {
@@ -57,6 +71,10 @@
 <body>
     
     <h1>TEAM GARUD</h1>
+    
+    <p class="description-paragraph">
+        A student-led drone startup focused on innovation engineering and aerial technology, dedicated to pushing the boundaries of autonomous systems and creating sustainable solutions for the future.
+    </p>
     
     <a href="new_page.html" class="dive-in-button">DIVE IN</a>
     
